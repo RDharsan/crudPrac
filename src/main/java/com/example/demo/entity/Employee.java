@@ -7,10 +7,10 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity
+@Entity//entity
 @Table(name = "Dharsan_employees")
 public class Employee {
-//propeeties
+//properties
     private long id;
     private String firstName;
     private String lastName;
@@ -19,7 +19,7 @@ public class Employee {
     public Employee() {
 
     }
-
+//constructor
 
     public Employee(String firstName, String lastName, String emailId) {
         this.firstName = firstName;
