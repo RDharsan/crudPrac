@@ -14,10 +14,12 @@ public class ErrorDetails {
         this.details = details;
     }
 
+    //getTimestamp
     public Date getTimestamp() {
         return timestamp;
     }
 
+    //getMessage
     public String getMessage() {
         return message;
     }
